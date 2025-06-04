@@ -62,7 +62,7 @@ Women face a range of safety challenges, including physical harassment, unsafe e
 ---
 
 ## 🌐 Table of Contents
-- [Overview](#-overview)  
+
 - [Tech Stack](#-tech-stack)  
   - [Frontend (React.js)](#1-frontend-reactjs)  
   - [Backend (Django)](#2-backend-django)  
