@@ -192,7 +192,8 @@ CI/CD Pipeline	GitHub Actions / Jenkins
 
 
 🔄 Integration & Communication Flow
-![image](https://github.com/user-attachments/assets/88b0d502-24dd-41a3-aaa8-62a3c2a37c6e)
+![image](https://github.com/user-attachments/assets/945462c7-bce4-4509-ba68-c318c41ab173)
+
 
 
 
