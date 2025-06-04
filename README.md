@@ -102,8 +102,7 @@ Naari aims to enhance women's safety through technology by providing:
 | GPS Mapping & Geofencing | Google Maps API, React Native Maps |
 | NGO/Police Directory     | Google Places API             |
 | Live Video/Audio Streaming | WebRTC                      |
-| Self-Defense Tutorials   | React.js Video Player, ARKit/ARCore (Optional) |
-| Customizable Security Modes | React, AsyncStorage        |
+| Self-Defense Tutorials   | React.js Video Player         |
 | User Authentication & Profile | JWT-based Auth           |
 
 #### 📦 Frontend Libraries & APIs
