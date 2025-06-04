@@ -66,7 +66,7 @@ Women face a range of safety challenges, including physical harassment, unsafe e
 - [Tech Stack](#-tech-stack)  
   - [Frontend (React.js)](#1-frontend-reactjs)  
   - [Backend (Django)](#2-backend-django)  
-  - [AI/ML Threat Detection](#3-aiml-opencv-tensorflow)  
+  - [AI/ML](#3-aiml-opencv-tensorflow)  
   - [Database](#database--cloud-infrastructure)  
 - [Core Features](#-core-features)  
 - [Integration Flow](#-integration-flow)  
