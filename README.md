@@ -1,5 +1,61 @@
 🚨 Naari Naari: Women Safety App
 A comprehensive women’s safety platform providing real-time SOS alerts, geolocation tracking, AI-based threat detection, and live video/audio evidence for rapid response and enhanced security. Built using React, Django, TensorFlow, OpenCV, and Firebase.
+Naari is an advanced women safety application designed to ensure protection and empowerment through real-time assistance, educational tools, and community support. With features like GPS mapping, emergency alerts, AI threat detection, and NGO connections, Naari aims to create a robust safety ecosystem for women.
+
+Problem Statement
+Women face a range of safety challenges, including physical harassment, unsafe environments, and lack of real-time assistance. Naari seeks to address these issues by leveraging technology for preventive, protective, and responsive solutions.
+
+## 🚨 Core Features
+
+### 🆘 Emergency SOS Button
+- **What it does**: Sends instant alerts to:
+  - Pre-defined emergency contacts
+  - Nearby police stations
+  - Trusted NGOs
+- **Technologies**:
+  - `Google Maps API`: Live location tracking
+  - `WebSocket`: Real-time SOS alert transmission
+
+---
+
+### 🗺️ GPS Mapping & Geofencing
+- **What it does**: Continuously tracks the user’s location and alerts them when they enter high-risk or geofenced areas.
+- **Technologies**:
+  - `Google Maps API`: Display maps and user movement
+  - `MongoDB`: Store geolocation zones and risk boundaries
+
+---
+
+### 🏢 NGO & Police Station Connectivity
+- **What it does**: Displays and connects the user to nearby verified NGOs and police stations.
+- **Technologies**:
+  - `Google Places API`: Discover nearby support centers
+  - `Twilio`: Direct call feature integration
+
+---
+
+### 🧠 AI-Based Threat Detection
+- **What it does**: Monitors surroundings via the device camera to detect:
+  - Following/stalking
+  - Aggressive or suspicious behavior
+- **Technologies**:
+  - `OpenCV + TensorFlow`: Process real-time camera input
+  - `YOLOv8`: Detect individuals
+  - `DeepSORT`: Track movement across frames
+  - `MoveNet`: Analyze body posture and actions
+
+---
+
+### 🎥 Live Video & Audio Streaming
+- **What it does**: Streams live video/audio to trusted contacts during emergencies for assistance and documentation.
+- **Technologies**:
+  - `WebRTC`: Real-time secure peer-to-peer streaming
+  - `Firebase`: Backup and store recorded content in the cloud
+
+
+| **AI Models**  | YOLOv8, DeepSORT, MoveNet, TensorFlow, OpenCV |
+| **APIs**       | Google Maps API, Places API |
+
 
 🌐 Table of Contents
 Overview
