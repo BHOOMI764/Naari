@@ -137,7 +137,7 @@ Naari aims to enhance women's safety through technology by providing:
 
 #### 📦 Backend Libraries & APIs
 - Django REST Framework  
-- Django ORM / Mongoose  
+- Django ORM 
 - WebSockets / Socket.IO  
 - Firebase Cloud Messaging (FCM)  
 - Twilio API  
