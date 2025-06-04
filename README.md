@@ -1,133 +1,179 @@
-# Naari
-Naari: Women Safety App - Tech Stack 
-1. Frontend (React Js)
-Core Responsibilities
+🚨 Naari Naari: Women Safety App
+A comprehensive women’s safety platform providing real-time SOS alerts, geolocation tracking, AI-based threat detection, and live video/audio evidence for rapid response and enhanced security. Built using React, Django, TensorFlow, OpenCV, and Firebase.
+
+🌐 Table of Contents
+Overview
+
+Tech Stack
+
+Frontend (React.js)
+
+Backend (Django)
+
+AI/ML Threat Detection
+
+Database & Cloud Infrastructure
+
+Core Features
+
+Integration Flow
+
+Deployment & CI/CD
+
+Future Enhancements
+
+🛡️ Overview
+Naari Naari aims to enhance women's safety using technology by providing:
+
+🚨 Emergency SOS functionality
+
+📍 GPS & geofencing with nearest NGO/police integration
+
+📹 Real-time video/audio capture
+
+🧠 AI-based threat analysis
+
+🎓 Educational content for self-defense
+
+💻 Tech Stack
+1. Frontend (React.js)
+🧠 Core Responsibilities
 User Interface (UI) and User Experience (UX)
 
 Real-time interaction with backend APIs
 
-Handling user inputs (SOS triggers, settings, etc.)
+Handling user inputs like SOS, settings
 
-Displaying maps, alerts, and educational content
+Displaying maps, alerts, and tutorials
 
-Key Features & Tech Stack
-Feature	Technology Used
-Emergency SOS Button ---	React UI, Google Maps API (for location)
-GPS Mapping & Geofencing	--- Google Maps API, React Native Maps
-NGO/Police Station Directory --- 	Google Places API (for nearest locations)
-Live Video/Audio Streaming	WebRTC (for real-time streaming)
-Educational Content (Self-Defense Tutorials)	--- React js Video, ARKit/ARCore (for AR-based training)
-Customizable Security Modes	React UI, AsyncStorage (for local settings)
-User Authentication & Profile	--- JWT-based auth
-Libraries & APIs
-React Navigation (for app routing)
+⚙️ Key Features & Technologies
+Feature	Tech Stack
+Emergency SOS Button	React UI, Google Maps API
+GPS Mapping & Geofencing	Google Maps API, React Native Maps
+NGO/Police Directory	Google Places API
+Live Video/Audio Streaming	WebRTC
+Self-Defense Tutorials	React.js Video Player, ARKit/ARCore (Optional)
+Customizable Security Modes	React, AsyncStorage
+User Authentication & Profile	JWT-based Auth
 
-Axios/Fetch (for API calls)
+📦 Frontend Libraries & APIs
+React.js
 
-Redux/Context API (state management)
+React Navigation
 
-React JS  Maps (for geolocation)
+Axios / Fetch API
 
-WebRTC (live video/audio streaming)
+Redux / Context API
 
-Twilio (optional) (for direct calls to NGOs/police)
+WebRTC (Live streaming)
+
+Google Maps & Places API
+
+Twilio (optional)
 
 2. Backend (Django)
-Core Responsibilities
-Handling emergency alerts & notifications
+🧠 Core Responsibilities
+Handling emergency alerts & real-time notifications
 
-Managing user authentication & data security
+User data & location management
 
-Storing & retrieving geolocation data
+API integration with external services
 
-Integrating third-party APIs (Maps, Twilio, etc.)
+AI/ML inference result processing
 
-Managing AI model inference (if backend-based)
+⚙️ Key Features & Technologies
+Feature	Tech Stack
+Emergency SOS Alert System	Django, WebSockets
+User Authentication & Security	JWT, OAuth2, AES Encryption
+Geofencing & Location Tracking	MongoDB (Geo Queries), Google Maps API
+NGO/Police Communication	Twilio (SMS/Calls), Google Places API
+Live Stream Storage	Firebase Storage / AWS S3
+RESTful APIs	Django REST Framework / Express.js (optional)
 
-Key Features & Tech Stack
-Feature	Technology Used
-Emergency SOS Alerts	 Django, WebSocket (for real-time alerts)
-User Authentication & Data Security	JWT, OAuth, AES encryption
-Geofencing & Location Tracking	MongoDB (Geospatial Queries), Google Maps API
-NGO/Police Station Integration	Google Places API, Twilio (for calls/SMS)
-Live Video Storage	Firebase Storage / AWS S3
-Database Management	MongoDB (for user data), Firebase (for real-time updates)
-API Endpoints	RESTful APIs (Express.js / Django REST Framework)
-Libraries & APIs
-Express.js (Node.js) / Django REST Framework (API development)
+📦 Backend Libraries & APIs
+Django REST Framework
 
-Mongoose (Node.js) / Django ORM (MongoDB/PostgreSQL integration)
+Django ORM / Mongoose
 
-WebSocket/Socket.io (real-time alerts)
+WebSockets / Socket.IO
 
-Twilio API (SMS/call integration)
+Firebase Cloud Messaging (FCM)
 
-Firebase Cloud Messaging (FCM) (push notifications)
-
+Twilio API
 
 3. AI/ML (OpenCV, TensorFlow)
-Core Responsibilities
-Real-time threat detection (suspicious activity, following behavior)
+🧠 Core Responsibilities
+Real-time threat detection
 
-Image/video processing for emergency evidence
+Facial and behavioral recognition
 
-Audio analysis for distress detection (optional)
+Audio analysis (optional distress recognition)
 
-Key Features & Tech Stack
-Feature	Technology Used
-AI-Based Threat Detection	OpenCV (video processing), TensorFlow (object detection)
-Facial/Behavior Recognition	TensorFlow Lite 
-Audio Distress Detection	Librosa (audio analysis), NLP models (optional)
-Model Training & Deployment	Python (scikit-learn, Keras), Flask/FastAPI (API endpoints)
-Libraries & APIs
-OpenCV (real-time video processing)
+AI-based alert escalation
 
-TensorFlow/Keras (deep learning models)
+⚙️ Key Features & Technologies
+Feature	Tech Stack
+Threat Detection (Vision)	OpenCV, TensorFlow (YOLO / SSD)
+Facial/Behavioral Analysis	TensorFlow Lite
+Audio Distress Detection	Librosa, NLP Models
+Model Serving	Flask / FastAPI, Keras, Scikit-learn
 
-Flask/FastAPI (to serve AI models via API)
+📦 AI Libraries & Tools
+OpenCV (CV)
 
+TensorFlow/Keras
 
+Flask or FastAPI (for model APIs)
+
+Librosa (Audio Analysis)
+
+YOLO, SSD, Wav2Vec (Model architectures)
 
 4. Database & Cloud Infrastructure
-Component	Technology Used
-Primary Database	MongoDB (for geolocation & user data)
-Auth & Realtime Updates	Firebase Auth & Firestore (optional)
+Component	Technology Stack
+Primary Database	MongoDB (User data, geolocation)
+Realtime Sync & Auth	Firebase Auth, Firestore (optional)
 Media Storage	AWS S3 / Firebase Storage
-Cloud Deployment	AWS EC2 / Google Cloud / Heroku (backend)
+Backend Hosting	AWS EC2 / Google Cloud / Heroku
+CI/CD Pipeline	GitHub Actions / Jenkins
+
+🚀 Core Features
+🔴 Emergency SOS with geolocation & video stream
+
+📡 Live alerts via SMS, WebSocket, and push notifications
+
+🔍 Nearby police stations/NGOs with instant contact
+
+🤖 AI-powered threat detection from live stream
+
+🔐 User login and secure profile management
+
+📚 Self-defense tutorials with optional AR modules
+
+⚙️ Customizable security settings (silent mode, fake calls)
+
+🔄 Integration & Communication Flow
+plaintext
+Copy
+Edit
+┌────────────────────┐    ┌────────────────────┐    ┌────────────────────┐
+│   Frontend (React) │<──>│  Backend (Django)   │<──>│  AI Server (Flask) │
+└────────────────────┘    └────────────────────┘    └────────────────────┘
+         ▲                        ▲                         ▲
+         │                        │                         │
+         ▼                        ▼                         ▼
+┌────────────────────┐    ┌────────────────────┐    ┌────────────────────┐
+│  User Mobile (App) │    │   Database (Mongo) │    │  Models (YOLO etc.)│
+│  (SOS / Alerts)    │    │   + Firebase       │    │                     │
+└────────────────────┘    └────────────────────┘    └────────────────────┘
+☁️ Deployment & CI/CD
+Stage	Tools/Platforms
+Frontend Hosting	Netlify / Vercel / Firebase Hosting
+Backend Hosting	AWS EC2 / Google Cloud / Heroku
+Database Hosting	MongoDB Atlas / Firebase Firestore
+Media Storage	Firebase Storage / AWS S3
 CI/CD	GitHub Actions / Jenkins
 
-
-6. Integration & Communication Flow
-Frontend (React js)
-
-Captures SOS trigger → Sends location to backend via API.
-
-Streams video via WebRTC → Stores in Firebase/AWS.
-
-Displays nearby NGOs using Google Places API.
-
-Backend (Django)
-
-Receives SOS → Sends alerts via WebSocket/Twilio.
-
-Stores geolocation in MongoDB (Geospatial indexing).
-
-Fetches AI threat analysis results → Sends alerts.
-
-AI/ML (Python/Flask)
-
-Processes live video → Detects threats using TensorFlow.
-
-Returns threat level to backend → Triggers alerts.
-
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│  Frontend       │    │  Backend        │    │  AI Server      │
-│  (React js)     │ ◄─►│  (Django REST)  │ ◄─►│  (Flask/FastAPI)│
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-       ▲                       ▲                       ▲
-       │                       │                       │
-       ▼                       ▼                       ▼
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│  User Mobile    │    │  Database       │    │  AI Models      │
-│  (SOS Alerts)   │    │  (PostgreSQL)   │    │  (YOLO, Wav2Vec)│
-└─────────────────┘    └─────────────────┘    └─────────────────┘
+📩 Contact
+Developer: Bhoomi Jaiswal
+Email: [bhoomicat2005@gmail.com]
