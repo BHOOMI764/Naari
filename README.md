@@ -101,6 +101,7 @@ Firebase Cloud Messaging (FCM)
 
 Twilio API
 
+
 3. AI/ML (OpenCV, TensorFlow)
 🧠 Core Responsibilities
 Real-time threat detection
@@ -128,6 +129,10 @@ Flask or FastAPI (for model APIs)
 Librosa (Audio Analysis)
 
 YOLO, SSD, Wav2Vec (Model architectures)
+
+![image](https://github.com/user-attachments/assets/e884a7ec-0e5f-421c-9a31-c5592e7d6a51)
+
+
 
 4. Database & Cloud Infrastructure
 Component	Technology Stack
@@ -166,4 +171,5 @@ CI/CD	GitHub Actions / Jenkins
 
 📩 Contact
 Developer: Bhoomi Jaiswal
+
 Email: [bhoomicat2005@gmail.com]
