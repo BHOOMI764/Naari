@@ -71,7 +71,6 @@ Women face a range of safety challenges, including physical harassment, unsafe e
 - [Core Features](#-core-features)  
 - [Integration Flow](#-integration-flow)  
 - [Deployment & CI/CD](#-deployment--cicd)  
-- [Future Enhancements](#-future-enhancements)  
 
 ---
 
