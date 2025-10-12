@@ -1,5 +1,14 @@
-🚨 Naari: Women Safety App
-A comprehensive women’s safety platform providing real-time SOS alerts, geolocation tracking, AI-based threat detection, and live video/audio evidence for rapid response and enhanced security. Built using React/Nextjs, Django, TensorFlow, OpenCV, and Firebase.
+# 🚨 Naari — AI-Powered Women Safety App
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)  
+[![Frontend](https://img.shields.io/badge/Frontend-React%2FNext.js-blue)](https://reactjs.org/)  
+[![Backend](https://img.shields.io/badge/Backend-Django-brightgreen)](https://www.djangoproject.com/)  
+[![AI/ML](https://img.shields.io/badge/AI%2FML-TensorFlow%2FOpenCV-orange)](https://www.tensorflow.org/)  
+
+A comprehensive women safety platform providing real-time SOS alerts, geolocation tracking, AI-based threat detection, and live video/audio evidence for rapid response and enhanced security. Naari combines technology, AI, and community support to ensure protection and empowerment.
+
+---
+Built using React/Nextjs, Django, TensorFlow, OpenCV.
 Naari is an advanced women safety application designed to ensure protection and empowerment through real-time assistance, educational tools, and community support. With features like GPS mapping, emergency alerts, AI threat detection, and NGO connections, Naari aims to create a robust safety ecosystem for women.
 
 Problem Statement
