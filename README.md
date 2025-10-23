@@ -1,4 +1,4 @@
-# 🚨 Naari — AI-Powered Women Safety App
+# 🚨 Naari — AI-Powered Women Safety webapp
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)  
 [![Frontend](https://img.shields.io/badge/Frontend-React%2FNext.js-blue)](https://reactjs.org/)  
